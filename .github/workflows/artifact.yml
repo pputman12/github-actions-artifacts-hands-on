@@ -28,5 +28,8 @@ jobs:
       with:
         path: ./artifacts
        
+    - name: ls
+      run: ls -al
+
     - name: display hello.txt
       run: cat ./artifacts/hello.txt
